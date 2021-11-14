@@ -53,13 +53,20 @@ section .wrap {
      padding-right: 40px;
 }
 .sort_col{
-     background-color: #3D8EDA;
+     /* background-color: #3D8EDA; */
      margin-right: 10px;
 }
 .sort_row{
-     background-color: #3D8EDA;
+     /* background-color: #3D8EDA; */
      margin-right: 10px;
+     width: 22px;
+     height: 22px;
+     opacity: 0.5;
 }
+.sort_col:hover {
+     opacity: 0.5;
+}
+
 .header_wrap_logo, .header_wrap_content {
    float: left;
 }
