@@ -1,4 +1,4 @@
-const time = 7000;//ms
+const time = 10000;//ms
 const step = 1;
 
 function outNum(num, elem) {
@@ -11,7 +11,7 @@ function outNum(num, elem) {
      // }
      let t = Math.round(time / (num / step));
      let interval = setInterval(() => {
-          n = n + step
+          n = n + step;
 if (n == num) {
      clearInterval(interval);
 }
@@ -19,7 +19,6 @@ l.innerHTML = n;
      },
  t);
 }
-
  outNum(11787, 'out-num1');
 // outNum(112, 'out-num3');
  outNum(870, 'out-num2');
